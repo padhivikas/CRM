@@ -1,1 +1,1 @@
-web: gunicorn src.wsgi --log-file -
+gunicorn crm.wsgi:src --log-file - --log-level debug
